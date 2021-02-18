@@ -1,0 +1,43 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #f6bed6;
+}
+.heading{
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+  font-family: sans-serif;
+  color: white;
+  font-weight: normal;
+  letter-spacing: 5px;
+}
+.container{
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-family: sans-serif;
+}
+.common-style{
+  text-align: justify;
+  padding: 12px;
+  margin: 10px;
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.container .card-1{
+  background-color: #ffee93;
+}
+.container .card-2{
+  background-color: #75cfb8;
+}
+.container .card-3{
+  background-color: #c4fb6d;
+}
+.common-style:hover{
+    box-shadow: 1px 1px 20px black;
+}
